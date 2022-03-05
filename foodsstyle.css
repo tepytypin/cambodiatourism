@@ -1,0 +1,70 @@
+body {
+    background-color: bisque;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav {
+    background-color: chocolate;
+    border: 2px solid white;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 25%;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    background-color: darkcyan;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.nav ul li a:hover {
+    background-color: rgb(145, 226, 226);
+    box-shadow: -5px -5px blue;
+}
+
+.banner h1, h2{
+    font-family: 'Righteous';
+}
+
+
+table, tr, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table tr td img {
+    width: 100%;
+} 
+
+table tr th {
+    background: rgb(77, 136, 95);
+    height: 50px;
+    color: white;
+}
+
+table tr:hover {
+    background: rgb(194, 214, 202);
+}
+
+table {
+    width: 100%;
+}
+
+.note{
+    background-color: rgb(255, 128, 89);
+}
+
+.tableheader{
+    font-family: Righteous;
+    letter-spacing: 2px;
+}
